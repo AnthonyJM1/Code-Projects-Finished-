@@ -1,12 +1,11 @@
 
 /*Anthony Molina
- * CS1450
  * February 12, 2025
- * Assignment 3
- * In this assignment we are asked to access information from a file and import it into a polymorphic array for task one. The second task is meant to use a method that passes the 
- * animal objects within the array and finds which ones have the interface climbers associated with them for a new concept ArrayLists and display them. The last task is a method 
- * that will run through each of the animals array and see which one of them has the highest skill level in regards to a total amount of each of the activities recorded at mph, and 
- * display the most skilled animal.
+ * Project: Animal Mobility Comparisons
+ * This project is meant to take in data from text file containing animals, their movement capabilities and 
+ * their correlating speeds in mph. This project will nicely display all their movemenent
+ * types, speeds, and compare them to find the most skilled animal based off of highest sum in mph.
+ * With an emphasis on climbers the program will also nicely display the informationg given and found.
  */
 import java.io.File;
 import java.io.IOException;
